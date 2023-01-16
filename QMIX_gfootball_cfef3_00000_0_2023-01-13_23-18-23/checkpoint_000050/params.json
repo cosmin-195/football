@@ -1,0 +1,16 @@
+{
+  "batch_mode": "truncate_episodes",
+  "clip_rewards": false,
+  "env": "gfootball",
+  "log_level": "DEBUG",
+  "lr": 0.00025,
+  "num_envs_per_worker": 1,
+  "num_gpus": 0,
+  "num_workers": 8,
+  "observation_filter": "NoFilter",
+  "optimizer": {
+    "simple_optimizer": true
+  },
+  "simple_optimizer": true,
+  "train_batch_size": 200
+}
